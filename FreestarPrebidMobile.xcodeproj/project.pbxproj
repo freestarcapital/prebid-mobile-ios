@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3516757CA74E81CCE7A07B64 /* Pods_PrebidMobileCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5502D79180F5E6DED9BD3785 /* Pods_PrebidMobileCore.framework */; };
+		2574AA7742706BB605D6C4FA /* Pods_FreestarPrebidMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0702CBB3A5621E1FE296C1 /* Pods_FreestarPrebidMobile.framework */; };
 		600CF0702208963500C95176 /* UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600CF06F2208963500C95176 /* UtilsTests.swift */; };
 		600CF13E220CDFA700C95176 /* responseinvalidSize.json in Resources */ = {isa = PBXBuildFile; fileRef = 600CF13D220CDFA700C95176 /* responseinvalidSize.json */; };
 		6013E3F82215C82900FEE2B1 /* CLLocationManager+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6013E3F72215C82900FEE2B1 /* CLLocationManager+Swizzle.swift */; };
@@ -39,10 +39,10 @@
 		60C2A368234D214C00628C9D /* NativeAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A367234D214C00628C9D /* NativeAsset.swift */; };
 		60C2A36E2354C7BA00628C9D /* NativeEventTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C2A36D2354C7BA00628C9D /* NativeEventTracker.swift */; };
 		60D79301217E229B0080F428 /* PrebidMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D79300217E229B0080F428 /* PrebidMobileTests.swift */; };
-		76DA65285917B36FC7A30B20 /* Pods_PrebidMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730153ABBDC6B4478360A4A9 /* Pods_PrebidMobile.framework */; };
 		9720387C2358771600F8025A /* NativeRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9720387B2358771600F8025A /* NativeRequestTests.swift */; };
 		9743CB84235F1CDB002E2CAA /* NativeAssetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743CB83235F1CDB002E2CAA /* NativeAssetTests.swift */; };
 		9743CB86235F264B002E2CAA /* NativeEventTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743CB85235F264B002E2CAA /* NativeEventTrackerTests.swift */; };
+		98C66BA02105F36B12769DA9 /* Pods_FreestarPrebidMobileCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19789430A0E78DAE09E1F4A6 /* Pods_FreestarPrebidMobileCore.framework */; };
 		F5400CB22209E8210018F6B1 /* responseInvalidResponseWithoutCacheId.json in Resources */ = {isa = PBXBuildFile; fileRef = F5400CB12209E8210018F6B1 /* responseInvalidResponseWithoutCacheId.json */; };
 		F5400CB62209EBF50018F6B1 /* PrebidServerValidResponseAppNexusNoCacheIdAndRunbiconHasCacheId.json in Resources */ = {isa = PBXBuildFile; fileRef = F5400CB52209EBF50018F6B1 /* PrebidServerValidResponseAppNexusNoCacheIdAndRunbiconHasCacheId.json */; };
 		F5400CB82209F19B0018F6B1 /* responseInvalidNoTopCacheId.json in Resources */ = {isa = PBXBuildFile; fileRef = F5400CB72209F19B0018F6B1 /* responseInvalidNoTopCacheId.json */; };
@@ -122,9 +122,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F1C6E8B15DF27C3772977CE /* Pods-PrebidMobileCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrebidMobileCore.release.xcconfig"; path = "Target Support Files/Pods-PrebidMobileCore/Pods-PrebidMobileCore.release.xcconfig"; sourceTree = "<group>"; };
-		35FE3E0475D07E6FE2455850 /* Pods-PrebidMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrebidMobile.debug.xcconfig"; path = "Target Support Files/Pods-PrebidMobile/Pods-PrebidMobile.debug.xcconfig"; sourceTree = "<group>"; };
-		5502D79180F5E6DED9BD3785 /* Pods_PrebidMobileCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrebidMobileCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B762549A6AD3BAD6A6F30F1 /* Pods-FreestarPrebidMobileCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreestarPrebidMobileCore.release.xcconfig"; path = "Target Support Files/Pods-FreestarPrebidMobileCore/Pods-FreestarPrebidMobileCore.release.xcconfig"; sourceTree = "<group>"; };
+		19789430A0E78DAE09E1F4A6 /* Pods_FreestarPrebidMobileCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreestarPrebidMobileCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		600072FE21BAFD2F00F4738B /* Dispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
 		600CF06F2208963500C95176 /* UtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsTests.swift; sourceTree = "<group>"; };
 		600CF13D220CDFA700C95176 /* responseinvalidSize.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = responseinvalidSize.json; sourceTree = "<group>"; };
@@ -150,7 +149,7 @@
 		60C2A36D2354C7BA00628C9D /* NativeEventTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeEventTracker.swift; sourceTree = "<group>"; };
 		60D792F5217E229A0080F428 /* PrebidMobile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrebidMobile.h; sourceTree = "<group>"; };
 		60D792F6217E229A0080F428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60D792FB217E229B0080F428 /* PrebidMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrebidMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D792FB217E229B0080F428 /* FreestarPrebidMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreestarPrebidMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D79300217E229B0080F428 /* PrebidMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrebidMobileTests.swift; sourceTree = "<group>"; };
 		60D79302217E229B0080F428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60D7930C217E23F90080F428 /* Prebid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prebid.swift; sourceTree = "<group>"; };
@@ -160,7 +159,7 @@
 		60D79315217E39D90080F428 /* Targeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Targeting.swift; sourceTree = "<group>"; };
 		60D79317217F7F3E0080F428 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		60EE7B0521F26329000B12A8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		730153ABBDC6B4478360A4A9 /* Pods_PrebidMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrebidMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0702CBB3A5621E1FE296C1 /* Pods_FreestarPrebidMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreestarPrebidMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9720387B2358771600F8025A /* NativeRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeRequestTests.swift; sourceTree = "<group>"; };
 		9743CB83235F1CDB002E2CAA /* NativeAssetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAssetTests.swift; sourceTree = "<group>"; };
 		9743CB85235F264B002E2CAA /* NativeEventTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeEventTrackerTests.swift; sourceTree = "<group>"; };
@@ -190,8 +189,9 @@
 		97EE4C6422035DD1006FEFA2 /* responseInvalidConfigId.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = responseInvalidConfigId.json; sourceTree = "<group>"; };
 		97EE4C6722035E57006FEFA2 /* responseIncorrectFormat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = responseIncorrectFormat.json; sourceTree = "<group>"; };
 		97F29999220056D10072E0C0 /* BannerAdUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdUnitTests.swift; sourceTree = "<group>"; };
-		D07F43DFFF74B68B593B7880 /* Pods-PrebidMobileCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrebidMobileCore.debug.xcconfig"; path = "Target Support Files/Pods-PrebidMobileCore/Pods-PrebidMobileCore.debug.xcconfig"; sourceTree = "<group>"; };
-		F37A7B8AA694F6F9F550482F /* Pods-PrebidMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrebidMobile.release.xcconfig"; path = "Target Support Files/Pods-PrebidMobile/Pods-PrebidMobile.release.xcconfig"; sourceTree = "<group>"; };
+		9B8C3061C6A3D0A46429D9F8 /* Pods-FreestarPrebidMobileCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreestarPrebidMobileCore.debug.xcconfig"; path = "Target Support Files/Pods-FreestarPrebidMobileCore/Pods-FreestarPrebidMobileCore.debug.xcconfig"; sourceTree = "<group>"; };
+		D76A61C04EBF160AB594BC36 /* Pods-FreestarPrebidMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreestarPrebidMobile.release.xcconfig"; path = "Target Support Files/Pods-FreestarPrebidMobile/Pods-FreestarPrebidMobile.release.xcconfig"; sourceTree = "<group>"; };
+		F4797D0884942C4BEB7F0E7D /* Pods-FreestarPrebidMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreestarPrebidMobile.debug.xcconfig"; path = "Target Support Files/Pods-FreestarPrebidMobile/Pods-FreestarPrebidMobile.debug.xcconfig"; sourceTree = "<group>"; };
 		F5400CB12209E8210018F6B1 /* responseInvalidResponseWithoutCacheId.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = responseInvalidResponseWithoutCacheId.json; sourceTree = "<group>"; };
 		F5400CB52209EBF50018F6B1 /* PrebidServerValidResponseAppNexusNoCacheIdAndRunbiconHasCacheId.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PrebidServerValidResponseAppNexusNoCacheIdAndRunbiconHasCacheId.json; sourceTree = "<group>"; };
 		F5400CB72209F19B0018F6B1 /* responseInvalidNoTopCacheId.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = responseInvalidNoTopCacheId.json; sourceTree = "<group>"; };
@@ -199,7 +199,7 @@
 		F543D530220E193200F1EF8F /* noBidResponseTmaxTooLarge.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = noBidResponseTmaxTooLarge.json; sourceTree = "<group>"; };
 		F543D531220E193200F1EF8F /* noBidResponseNoTmax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = noBidResponseNoTmax.json; sourceTree = "<group>"; };
 		FA12E517231FCD1400CAA05B /* BidManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BidManager.swift; sourceTree = "<group>"; };
-		FA29A3F2232255DF00F13F61 /* PrebidMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrebidMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA29A3F2232255DF00F13F61 /* FreestarPrebidMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FreestarPrebidMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA434C32235DEBE6001578E3 /* VideoAdUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAdUnitTests.swift; sourceTree = "<group>"; };
 		FA434C34235DEC0B001578E3 /* VideoInterstitialAdUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInterstitialAdUnitTests.swift; sourceTree = "<group>"; };
 		FA5AD5E32271FA4100C8F274 /* ConstantsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTest.swift; sourceTree = "<group>"; };
@@ -210,7 +210,7 @@
 		FA7C3EB8225E518000D2F128 /* noBidResponseRubicon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = noBidResponseRubicon.json; sourceTree = "<group>"; };
 		FA7F89EB22DC95E30065B652 /* CollectionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtension.swift; sourceTree = "<group>"; };
 		FA9D7F2622E8A83D006FCBEF /* AdViewUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdViewUtilsTests.swift; sourceTree = "<group>"; };
-		FAAA00BD2322733E009DC7D6 /* PrebidMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrebidMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAA00BD2322733E009DC7D6 /* FreestarPrebidMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FreestarPrebidMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC837D72321583500565051 /* CollectionExtensionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionExtensionTest.swift; sourceTree = "<group>"; };
 		FAD4D542235DCCAB00140012 /* VideoAdUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAdUnit.swift; sourceTree = "<group>"; };
 		FAD4D545235DCCCF00140012 /* VideoInterstitialAdUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInterstitialAdUnit.swift; sourceTree = "<group>"; };
@@ -230,7 +230,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3516757CA74E81CCE7A07B64 /* Pods_PrebidMobileCore.framework in Frameworks */,
+				98C66BA02105F36B12769DA9 /* Pods_FreestarPrebidMobileCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +238,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76DA65285917B36FC7A30B20 /* Pods_PrebidMobile.framework in Frameworks */,
+				2574AA7742706BB605D6C4FA /* Pods_FreestarPrebidMobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +249,8 @@
 			isa = PBXGroup;
 			children = (
 				6062B19B218243FA00CE1BA3 /* CoreLocation.framework */,
-				730153ABBDC6B4478360A4A9 /* Pods_PrebidMobile.framework */,
-				5502D79180F5E6DED9BD3785 /* Pods_PrebidMobileCore.framework */,
+				8E0702CBB3A5621E1FE296C1 /* Pods_FreestarPrebidMobile.framework */,
+				19789430A0E78DAE09E1F4A6 /* Pods_FreestarPrebidMobileCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -293,9 +293,9 @@
 		60D792F3217E229A0080F428 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60D792FB217E229B0080F428 /* PrebidMobileTests.xctest */,
-				FA29A3F2232255DF00F13F61 /* PrebidMobile.framework */,
-				FAAA00BD2322733E009DC7D6 /* PrebidMobile.framework */,
+				60D792FB217E229B0080F428 /* FreestarPrebidMobileTests.xctest */,
+				FA29A3F2232255DF00F13F61 /* FreestarPrebidMobile.framework */,
+				FAAA00BD2322733E009DC7D6 /* FreestarPrebidMobile.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -446,10 +446,10 @@
 		EE09B07119B6562CC4356195 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				35FE3E0475D07E6FE2455850 /* Pods-PrebidMobile.debug.xcconfig */,
-				F37A7B8AA694F6F9F550482F /* Pods-PrebidMobile.release.xcconfig */,
-				D07F43DFFF74B68B593B7880 /* Pods-PrebidMobileCore.debug.xcconfig */,
-				1F1C6E8B15DF27C3772977CE /* Pods-PrebidMobileCore.release.xcconfig */,
+				F4797D0884942C4BEB7F0E7D /* Pods-FreestarPrebidMobile.debug.xcconfig */,
+				D76A61C04EBF160AB594BC36 /* Pods-FreestarPrebidMobile.release.xcconfig */,
+				9B8C3061C6A3D0A46429D9F8 /* Pods-FreestarPrebidMobileCore.debug.xcconfig */,
+				0B762549A6AD3BAD6A6F30F1 /* Pods-FreestarPrebidMobileCore.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -503,9 +503,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		60D792FA217E229B0080F428 /* PrebidMobileTests */ = {
+		60D792FA217E229B0080F428 /* FreestarPrebidMobileTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60D79309217E229B0080F428 /* Build configuration list for PBXNativeTarget "PrebidMobileTests" */;
+			buildConfigurationList = 60D79309217E229B0080F428 /* Build configuration list for PBXNativeTarget "FreestarPrebidMobileTests" */;
 			buildPhases = (
 				60D792F7217E229B0080F428 /* Sources */,
 				60D792F8217E229B0080F428 /* Frameworks */,
@@ -516,14 +516,14 @@
 			dependencies = (
 				FAC9E22923284B2800113B04 /* PBXTargetDependency */,
 			);
-			name = PrebidMobileTests;
+			name = FreestarPrebidMobileTests;
 			productName = PrebidMobileTests;
-			productReference = 60D792FB217E229B0080F428 /* PrebidMobileTests.xctest */;
+			productReference = 60D792FB217E229B0080F428 /* FreestarPrebidMobileTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FA29A3D2232255DF00F13F61 /* PrebidMobileCore */ = {
+		FA29A3D2232255DF00F13F61 /* FreestarPrebidMobileCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA29A3EF232255DF00F13F61 /* Build configuration list for PBXNativeTarget "PrebidMobileCore" */;
+			buildConfigurationList = FA29A3EF232255DF00F13F61 /* Build configuration list for PBXNativeTarget "FreestarPrebidMobileCore" */;
 			buildPhases = (
 				477304AED236E2ADA62121E1 /* [CP] Check Pods Manifest.lock */,
 				FA29A3EC232255DF00F13F61 /* Headers */,
@@ -535,14 +535,14 @@
 			);
 			dependencies = (
 			);
-			name = PrebidMobileCore;
+			name = FreestarPrebidMobileCore;
 			productName = PrebidMobile;
-			productReference = FA29A3F2232255DF00F13F61 /* PrebidMobile.framework */;
+			productReference = FA29A3F2232255DF00F13F61 /* FreestarPrebidMobile.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FAAA00BC2322733E009DC7D6 /* PrebidMobile */ = {
+		FAAA00BC2322733E009DC7D6 /* FreestarPrebidMobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAAA00C22322733E009DC7D6 /* Build configuration list for PBXNativeTarget "PrebidMobile" */;
+			buildConfigurationList = FAAA00C22322733E009DC7D6 /* Build configuration list for PBXNativeTarget "FreestarPrebidMobile" */;
 			buildPhases = (
 				F4DB4A8B7AB243D08F5E21EE /* [CP] Check Pods Manifest.lock */,
 				FAAA00B82322733E009DC7D6 /* Headers */,
@@ -554,9 +554,9 @@
 			);
 			dependencies = (
 			);
-			name = PrebidMobile;
+			name = FreestarPrebidMobile;
 			productName = PrebidMobile;
-			productReference = FAAA00BD2322733E009DC7D6 /* PrebidMobile.framework */;
+			productReference = FAAA00BD2322733E009DC7D6 /* FreestarPrebidMobile.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -577,7 +577,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 60D792EC217E229A0080F428 /* Build configuration list for PBXProject "PrebidMobile" */;
+			buildConfigurationList = 60D792EC217E229A0080F428 /* Build configuration list for PBXProject "FreestarPrebidMobile" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -590,9 +590,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAAA00BC2322733E009DC7D6 /* PrebidMobile */,
-				60D792FA217E229B0080F428 /* PrebidMobileTests */,
-				FA29A3D2232255DF00F13F61 /* PrebidMobileCore */,
+				FAAA00BC2322733E009DC7D6 /* FreestarPrebidMobile */,
+				60D792FA217E229B0080F428 /* FreestarPrebidMobileTests */,
+				FA29A3D2232255DF00F13F61 /* FreestarPrebidMobileCore */,
 			);
 		};
 /* End PBXProject section */
@@ -653,7 +653,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PrebidMobileCore-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FreestarPrebidMobileCore-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -675,7 +675,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PrebidMobile-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FreestarPrebidMobile-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -793,7 +793,7 @@
 /* Begin PBXTargetDependency section */
 		FAC9E22923284B2800113B04 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FAAA00BC2322733E009DC7D6 /* PrebidMobile */;
+			target = FAAA00BC2322733E009DC7D6 /* FreestarPrebidMobile */;
 			targetProxy = FAC9E22823284B2800113B04 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -941,7 +941,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.prebid.mobileTests;
-				PRODUCT_NAME = PrebidMobileTests;
+				PRODUCT_NAME = FreestarPrebidMobileTests;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Tests/PrebidMobileTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -962,7 +962,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.prebid.mobileTests;
-				PRODUCT_NAME = PrebidMobileTests;
+				PRODUCT_NAME = FreestarPrebidMobileTests;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Tests/PrebidMobileTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -971,7 +971,7 @@
 		};
 		FA29A3F0232255DF00F13F61 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D07F43DFFF74B68B593B7880 /* Pods-PrebidMobileCore.debug.xcconfig */;
+			baseConfigurationReference = 9B8C3061C6A3D0A46429D9F8 /* Pods-FreestarPrebidMobileCore.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -986,6 +986,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				PRODUCT_NAME = FreestarPrebidMobile;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -994,7 +995,7 @@
 		};
 		FA29A3F1232255DF00F13F61 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F1C6E8B15DF27C3772977CE /* Pods-PrebidMobileCore.release.xcconfig */;
+			baseConfigurationReference = 0B762549A6AD3BAD6A6F30F1 /* Pods-FreestarPrebidMobileCore.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -1009,6 +1010,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				PRODUCT_NAME = FreestarPrebidMobile;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1017,7 +1019,7 @@
 		};
 		FAAA00C32322733E009DC7D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35FE3E0475D07E6FE2455850 /* Pods-PrebidMobile.debug.xcconfig */;
+			baseConfigurationReference = F4797D0884942C4BEB7F0E7D /* Pods-FreestarPrebidMobile.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -1033,6 +1035,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.4;
+				PRODUCT_NAME = FreestarPrebidMobile;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1041,7 +1044,7 @@
 		};
 		FAAA00C42322733E009DC7D6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F37A7B8AA694F6F9F550482F /* Pods-PrebidMobile.release.xcconfig */;
+			baseConfigurationReference = D76A61C04EBF160AB594BC36 /* Pods-FreestarPrebidMobile.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -1057,6 +1060,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.4;
+				PRODUCT_NAME = FreestarPrebidMobile;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1066,7 +1070,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		60D792EC217E229A0080F428 /* Build configuration list for PBXProject "PrebidMobile" */ = {
+		60D792EC217E229A0080F428 /* Build configuration list for PBXProject "FreestarPrebidMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60D79304217E229B0080F428 /* Debug */,
@@ -1075,7 +1079,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60D79309217E229B0080F428 /* Build configuration list for PBXNativeTarget "PrebidMobileTests" */ = {
+		60D79309217E229B0080F428 /* Build configuration list for PBXNativeTarget "FreestarPrebidMobileTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				60D7930A217E229B0080F428 /* Debug */,
@@ -1084,7 +1088,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA29A3EF232255DF00F13F61 /* Build configuration list for PBXNativeTarget "PrebidMobileCore" */ = {
+		FA29A3EF232255DF00F13F61 /* Build configuration list for PBXNativeTarget "FreestarPrebidMobileCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA29A3F0232255DF00F13F61 /* Debug */,
@@ -1093,7 +1097,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAAA00C22322733E009DC7D6 /* Build configuration list for PBXNativeTarget "PrebidMobile" */ = {
+		FAAA00C22322733E009DC7D6 /* Build configuration list for PBXNativeTarget "FreestarPrebidMobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAAA00C32322733E009DC7D6 /* Debug */,

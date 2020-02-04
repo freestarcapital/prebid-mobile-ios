@@ -14,6 +14,7 @@
  */
 
 import Foundation
+import UIKit
 
 public class BannerAdUnit: AdUnit {
 

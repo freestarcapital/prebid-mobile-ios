@@ -14,6 +14,7 @@
  */
 
 import Foundation
+import UIKit
 
 @objc public enum PrebidHost: Int {
     

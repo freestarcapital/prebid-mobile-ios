@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FAAA00BC2322733E009DC7D6"
-               BuildableName = "PrebidMobile.framework"
-               BlueprintName = "PrebidMobile"
-               ReferencedContainer = "container:PrebidMobile.xcodeproj">
+               BlueprintIdentifier = "FA29A3D2232255DF00F13F61"
+               BuildableName = "FreestarPrebidMobile.framework"
+               BlueprintName = "FreestarPrebidMobileCore"
+               ReferencedContainer = "container:FreestarPrebidMobile.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,17 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FAAA00BC2322733E009DC7D6"
-            BuildableName = "PrebidMobile.framework"
-            BlueprintName = "PrebidMobile"
-            ReferencedContainer = "container:PrebidMobile.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -54,14 +43,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FAAA00BC2322733E009DC7D6"
-            BuildableName = "PrebidMobile.framework"
-            BlueprintName = "PrebidMobile"
-            ReferencedContainer = "container:PrebidMobile.xcodeproj">
+            BlueprintIdentifier = "FA29A3D2232255DF00F13F61"
+            BuildableName = "FreestarPrebidMobile.framework"
+            BlueprintName = "FreestarPrebidMobileCore"
+            ReferencedContainer = "container:FreestarPrebidMobile.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -72,10 +59,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FAAA00BC2322733E009DC7D6"
-            BuildableName = "PrebidMobile.framework"
-            BlueprintName = "PrebidMobile"
-            ReferencedContainer = "container:PrebidMobile.xcodeproj">
+            BlueprintIdentifier = "FA29A3D2232255DF00F13F61"
+            BuildableName = "FreestarPrebidMobile.framework"
+            BlueprintName = "FreestarPrebidMobileCore"
+            ReferencedContainer = "container:FreestarPrebidMobile.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

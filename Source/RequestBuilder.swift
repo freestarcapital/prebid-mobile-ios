@@ -18,6 +18,7 @@ import CoreTelephony
 import CoreLocation
 import WebKit
 import AdSupport
+import UIKit
 
 @objcMembers public class RequestBuilder: NSObject {
     /**

@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:PrebidMobile.xcodeproj">
+      location = "group:/Users/yungdean/Workspace/freestar/prebid-mobile-ios/FreestarPrebidMobile.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Example/PrebidDemo/PrebidDemo.xcodeproj">
@@ -12,5 +12,8 @@
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FreestarPrebidMobile.xcodeproj">
    </FileRef>
 </Workspace>

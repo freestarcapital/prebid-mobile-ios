@@ -14,6 +14,7 @@
  */
 
 import Foundation
+import UIKit
 
 @objcMembers public class InterstitialAdUnit: AdUnit {
 

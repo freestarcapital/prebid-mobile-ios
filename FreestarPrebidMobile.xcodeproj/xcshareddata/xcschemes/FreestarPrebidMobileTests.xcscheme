@@ -17,14 +17,12 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "60D792FA217E229B0080F428"
-               BuildableName = "PrebidMobileTests.xctest"
-               BlueprintName = "PrebidMobileTests"
-               ReferencedContainer = "container:PrebidMobile.xcodeproj">
+               BuildableName = "FreestarPrebidMobileTests.xctest"
+               BlueprintName = "FreestarPrebidMobileTests"
+               ReferencedContainer = "container:FreestarPrebidMobile.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -36,8 +34,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

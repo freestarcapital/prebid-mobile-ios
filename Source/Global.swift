@@ -14,6 +14,7 @@
  */
 
 import Foundation
+import UIKit
 
 public enum ErrorCode: Error {
     case prebidServerURLInvalid (String)
