@@ -6,8 +6,21 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		FDE7E3C123E9FF70002E7984 /* Universal-FreestarPrebidMobile */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FDE7E3C423E9FF70002E7984 /* Build configuration list for PBXAggregateTarget "Universal-FreestarPrebidMobile" */;
+			buildPhases = (
+				FDE7E3C523E9FFAA002E7984 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Universal-FreestarPrebidMobile";
+			productName = "Universal-FreestarPrebidMobile";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		2574AA7742706BB605D6C4FA /* Pods_FreestarPrebidMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0702CBB3A5621E1FE296C1 /* Pods_FreestarPrebidMobile.framework */; };
 		600CF0702208963500C95176 /* UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600CF06F2208963500C95176 /* UtilsTests.swift */; };
 		600CF13E220CDFA700C95176 /* responseinvalidSize.json in Resources */ = {isa = PBXBuildFile; fileRef = 600CF13D220CDFA700C95176 /* responseinvalidSize.json */; };
 		6013E3F82215C82900FEE2B1 /* CLLocationManager+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6013E3F72215C82900FEE2B1 /* CLLocationManager+Swizzle.swift */; };
@@ -42,7 +55,6 @@
 		9720387C2358771600F8025A /* NativeRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9720387B2358771600F8025A /* NativeRequestTests.swift */; };
 		9743CB84235F1CDB002E2CAA /* NativeAssetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743CB83235F1CDB002E2CAA /* NativeAssetTests.swift */; };
 		9743CB86235F264B002E2CAA /* NativeEventTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743CB85235F264B002E2CAA /* NativeEventTrackerTests.swift */; };
-		98C66BA02105F36B12769DA9 /* Pods_FreestarPrebidMobileCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19789430A0E78DAE09E1F4A6 /* Pods_FreestarPrebidMobileCore.framework */; };
 		F5400CB22209E8210018F6B1 /* responseInvalidResponseWithoutCacheId.json in Resources */ = {isa = PBXBuildFile; fileRef = F5400CB12209E8210018F6B1 /* responseInvalidResponseWithoutCacheId.json */; };
 		F5400CB62209EBF50018F6B1 /* PrebidServerValidResponseAppNexusNoCacheIdAndRunbiconHasCacheId.json in Resources */ = {isa = PBXBuildFile; fileRef = F5400CB52209EBF50018F6B1 /* PrebidServerValidResponseAppNexusNoCacheIdAndRunbiconHasCacheId.json */; };
 		F5400CB82209F19B0018F6B1 /* responseInvalidNoTopCacheId.json in Resources */ = {isa = PBXBuildFile; fileRef = F5400CB72209F19B0018F6B1 /* responseInvalidNoTopCacheId.json */; };
@@ -123,7 +135,6 @@
 
 /* Begin PBXFileReference section */
 		0B762549A6AD3BAD6A6F30F1 /* Pods-FreestarPrebidMobileCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreestarPrebidMobileCore.release.xcconfig"; path = "Target Support Files/Pods-FreestarPrebidMobileCore/Pods-FreestarPrebidMobileCore.release.xcconfig"; sourceTree = "<group>"; };
-		19789430A0E78DAE09E1F4A6 /* Pods_FreestarPrebidMobileCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreestarPrebidMobileCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		600072FE21BAFD2F00F4738B /* Dispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
 		600CF06F2208963500C95176 /* UtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsTests.swift; sourceTree = "<group>"; };
 		600CF13D220CDFA700C95176 /* responseinvalidSize.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = responseinvalidSize.json; sourceTree = "<group>"; };
@@ -159,7 +170,6 @@
 		60D79315217E39D90080F428 /* Targeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Targeting.swift; sourceTree = "<group>"; };
 		60D79317217F7F3E0080F428 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		60EE7B0521F26329000B12A8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		8E0702CBB3A5621E1FE296C1 /* Pods_FreestarPrebidMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreestarPrebidMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9720387B2358771600F8025A /* NativeRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeRequestTests.swift; sourceTree = "<group>"; };
 		9743CB83235F1CDB002E2CAA /* NativeAssetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAssetTests.swift; sourceTree = "<group>"; };
 		9743CB85235F264B002E2CAA /* NativeEventTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeEventTrackerTests.swift; sourceTree = "<group>"; };
@@ -230,7 +240,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98C66BA02105F36B12769DA9 /* Pods_FreestarPrebidMobileCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +247,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2574AA7742706BB605D6C4FA /* Pods_FreestarPrebidMobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +257,6 @@
 			isa = PBXGroup;
 			children = (
 				6062B19B218243FA00CE1BA3 /* CoreLocation.framework */,
-				8E0702CBB3A5621E1FE296C1 /* Pods_FreestarPrebidMobile.framework */,
-				19789430A0E78DAE09E1F4A6 /* Pods_FreestarPrebidMobileCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -575,6 +581,9 @@
 					FAAA00BC2322733E009DC7D6 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					FDE7E3C123E9FF70002E7984 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 60D792EC217E229A0080F428 /* Build configuration list for PBXProject "FreestarPrebidMobile" */;
@@ -593,6 +602,7 @@
 				FAAA00BC2322733E009DC7D6 /* FreestarPrebidMobile */,
 				60D792FA217E229B0080F428 /* FreestarPrebidMobileTests */,
 				FA29A3D2232255DF00F13F61 /* FreestarPrebidMobileCore */,
+				FDE7E3C123E9FF70002E7984 /* Universal-FreestarPrebidMobile */,
 			);
 		};
 /* End PBXProject section */
@@ -681,6 +691,23 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		FDE7E3C523E9FFAA002E7984 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\necho ${BUILD_DIR}\necho ${BUILD_ROOT}\necho ${UNIVERSAL_OUTPUTFOLDER}\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild BITCODE_GENERATION_MODE=bitcode OTHER_CFLAGS=\"-fembed-bitcode\" -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}/build\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1067,6 +1094,22 @@
 			};
 			name = Release;
 		};
+		FDE7E3C223E9FF70002E7984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDE7E3C323E9FF70002E7984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1102,6 +1145,15 @@
 			buildConfigurations = (
 				FAAA00C32322733E009DC7D6 /* Debug */,
 				FAAA00C42322733E009DC7D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE7E3C423E9FF70002E7984 /* Build configuration list for PBXAggregateTarget "Universal-FreestarPrebidMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE7E3C223E9FF70002E7984 /* Debug */,
+				FDE7E3C323E9FF70002E7984 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

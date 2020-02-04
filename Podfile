@@ -1,5 +1,6 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '9.0'
+install! 'cocoapods', integrate_targets: false
 
 workspace 'FreestarPrebidMobile'
 
@@ -18,7 +19,6 @@ target 'FreestarPrebidMobile' do
   project 'FreestarPrebidMobile.xcodeproj'
 
   use_frameworks!
-
 end
 
 target 'FreestarPrebidMobileCore' do

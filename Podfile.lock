@@ -1,5 +1,5 @@
 PODS:
-  - Google-Mobile-Ads-SDK (7.54.0):
+  - Google-Mobile-Ads-SDK (7.55.0):
     - GoogleAppMeasurement (~> 6.0)
   - GoogleAppMeasurement (6.2.2):
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
@@ -23,17 +23,20 @@ PODS:
   - "GoogleUtilities/NSData+zlib (6.5.1)"
   - GoogleUtilities/Reachability (6.5.1):
     - GoogleUtilities/Logger
-  - mopub-ios-sdk (5.10.0):
-    - mopub-ios-sdk/MoPubSDK (= 5.10.0)
-  - mopub-ios-sdk/Avid (5.10.0):
+  - mopub-ios-sdk (5.11.0):
+    - mopub-ios-sdk/MoPubSDK (= 5.11.0)
+  - mopub-ios-sdk/Avid (5.11.0):
     - mopub-ios-sdk/Core
-  - mopub-ios-sdk/Core (5.10.0)
-  - mopub-ios-sdk/Moat (5.10.0):
+  - mopub-ios-sdk/Core (5.11.0)
+  - mopub-ios-sdk/Moat (5.11.0):
     - mopub-ios-sdk/Core
-  - mopub-ios-sdk/MoPubSDK (5.10.0):
+  - mopub-ios-sdk/MoPubSDK (5.11.0):
     - mopub-ios-sdk/Avid
     - mopub-ios-sdk/Core
     - mopub-ios-sdk/Moat
+    - mopub-ios-sdk/NativeAds
+  - mopub-ios-sdk/NativeAds (5.11.0):
+    - mopub-ios-sdk/Core
   - nanopb (0.3.9011):
     - nanopb/decode (= 0.3.9011)
     - nanopb/encode (= 0.3.9011)
@@ -53,12 +56,12 @@ SPEC REPOS:
     - nanopb
 
 SPEC CHECKSUMS:
-  Google-Mobile-Ads-SDK: 8241b4bd0f11b4f03f5dcd4affccb04ca938f050
+  Google-Mobile-Ads-SDK: 09d1c182f144b456fce626f9234ab4d35397ea10
   GoogleAppMeasurement: d0560d915abf15e692e8538ba1d58442217b6aff
   GoogleUtilities: 06eb53bb579efe7099152735900dd04bf09e7275
-  mopub-ios-sdk: 3d65133b95b6498aa871a66818a11a5ba307e565
+  mopub-ios-sdk: 292b8e9a55a2e72a34afc04ec01e85486af46240
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
 
-PODFILE CHECKSUM: d3e312675552432f04101b0c6d3ac476aef40511
+PODFILE CHECKSUM: 68512292209b8018908a2e971557a1f30ae77c1e
 
 COCOAPODS: 1.8.4
