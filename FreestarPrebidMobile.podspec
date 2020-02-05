@@ -41,8 +41,7 @@ Pod::Spec.new do |s|
   s.framework  = ['CoreTelephony', 'SystemConfiguration', 'UIKit', 'Foundation']
 
   s.subspec 'core' do |core|
-    core.source_files = 'Source/FreestarPrebidMobile.framework/Headers/*.{h,m,swift}'
-    core.vendored_frameworks = 'Source/FreestarPrebidMobile.framework/'
+    core.source_files = 'Source/FreestarPrebidMobile.framework/Headers/*.{h}'
     core.preserve_paths =  'Source/FreestarPrebidMobile.framework/*'    
   end
 
