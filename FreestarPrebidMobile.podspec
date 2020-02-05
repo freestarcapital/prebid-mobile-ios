@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "PrebidMobile"
+  s.name         = "FreestarPrebidMobile"
   s.version      = '#{Version}#'
   s.summary      = "PrebidMobile is a lightweight framework that integrates directly with Prebid Server."
 
