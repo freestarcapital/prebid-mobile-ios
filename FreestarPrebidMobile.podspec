@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PrebidMobile"
-  s.version      = "1.3"
+  s.version      = '#{Version}#'
   s.summary      = "PrebidMobile is a lightweight framework that integrates directly with Prebid Server."
 
   s.description  = <<-DESC
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.author             = { "Prebid.org, Inc." => "info@prebid.org" }
   s.platform     = :ios, "9.0"
   s.swift_version = '5.0'
-  s.source       = { :git => "https://github.com/prebid/prebid-mobile-ios.git", :tag => "#{s.version}" }
+  s.source = { :http => 'https://storage.googleapis.com/freestar-sdk/FreestarPrebidMobile/FreestarPrebidMobile-#{Version}#.tar.gz' }
   s.xcconfig = {
 :LIBRARY_SEARCH_PATHS => '$(inherited)',
 :OTHER_CFLAGS => '$(inherited)',
@@ -41,7 +41,9 @@ Pod::Spec.new do |s|
   s.framework  = ['CoreTelephony', 'SystemConfiguration', 'UIKit', 'Foundation']
 
   s.subspec 'core' do |core|
-    core.source_files = 'Source/**/*.{h,m,swift}'
+    core.source_files = 'Source/FreestarPrebidMobile.framework/Headers/*.{h,m,swift}'
+    core.vendored_frameworks = 'Source/FreestarPrebidMobile.framework/'
+    core.preserve_paths =  'Source/FreestarPrebidMobile.framework/*'    
   end
 
 end
